@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/simple_dark_background"
+    tools:context=".MainActivity">
+
+    <!-- Logo centrado vertical y horizontal -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@drawable/logo"
+        android:contentDescription="@string/logo_description"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_centerInParent="true" />
+
+    <!-- Botón invisible (por encima del logo para la parte de la pantalla superior) -->
+    <Button
+        android:id="@+id/partidaButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="Partida"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:fontFamily="@font/league_spartan_bold"
+        android:onClick="onPartidaClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/logoImageView"
+        android:layout_marginTop="100dp" />
+
+    <!-- Botón invisible (por debajo del logo para la parte de la pantalla inferior) -->
+    <Button
+        android:id="@+id/reglasButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="Reglas"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:fontFamily="@font/league_spartan_bold"
+        android:onClick="onReglasClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logoImageView"
+        android:layout_marginBottom="100dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

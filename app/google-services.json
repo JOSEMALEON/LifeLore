@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1054521425001",
+    "project_id": "lifelore-c7a86",
+    "storage_bucket": "lifelore-c7a86.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054521425001:android:4a3e4d67bbec7fb12776f8",
+        "android_client_info": {
+          "package_name": "com.example.lifelore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFihN-e4wVThnS5k_0IV-PZSVBRA3GWQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
