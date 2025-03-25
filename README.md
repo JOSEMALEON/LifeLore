@@ -44,8 +44,8 @@ Via LinkedIn
 ## 📧 Contacto
 Si tienes alguna pregunta o sugerencia, no dudes en contactarme:
 
-LinkedIn: Perfil de LinkedIn
-
+LinkedIn: [Perfil de LinkedIn
+]([url](https://www.linkedin.com/in/jmleoncarmona/))
 ---
 
 ## 📄 Licencia
